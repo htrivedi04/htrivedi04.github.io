@@ -25,7 +25,7 @@
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
-
+	
    <!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
@@ -338,11 +338,9 @@
 
          <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
-            </p>
+            I've worked with <table><tr><td class="element"></td></tr></table>
+												<!-- size="4em" -->
+            
 
 				<div class="bars">
 
@@ -915,13 +913,25 @@
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
+			<script type="text/javascript" src="js/typetext.js"></script>	
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
-
+			<script src="js/typed.js"></script>
+			<script>
+			  document.addEventListener('DOMContentLoaded', function(){
+				     Typed.new('.element', {
+				       strings: ["Python", "Java", "C/C++", "R", "C#.NET", "Android", "MongoDB", "MySQL", "SQLLite", "HTML/CSS", "JavaScript", "MATLAB", "Oracle"],
+				       typeSpeed: 0,
+											// loop
+											loop: true,
+											// false = infinite
+											loopCount: false,
+				     });
+			  });
+</script>
 </body>
 
 </html>
