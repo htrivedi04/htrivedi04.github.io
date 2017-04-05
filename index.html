@@ -18,10 +18,32 @@
 	<!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+			<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
-
+			<style type="text/css">
+				.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+				}
+				@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+				}
+				@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+				}
+				@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+				}
+			</style>	
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
@@ -338,8 +360,7 @@
 
          <div class="nine columns main-col">
 
-            I've worked with <table><tr><td class="element"></td></tr></table>
-												<!-- size="4em" -->
+            <table><tr><td>I've worked with &emsp;</td><td class="element"></td><td>&emsp; with varying proficiencies...</td></tr></table>
             
 
 				<div class="bars">
@@ -925,10 +946,20 @@
 				     Typed.new('.element', {
 				       strings: ["Python", "Java", "C/C++", "R", "C#.NET", "Android", "MongoDB", "MySQL", "SQLLite", "HTML/CSS", "JavaScript", "MATLAB", "Oracle"],
 				       typeSpeed: 0,
+											// time before typing starts
+											startDelay: 4,
+											// backspacing speed
+											backSpeed: 0,
+											// time before backspacing
+											backDelay: 1500,
 											// loop
 											loop: true,
 											// false = infinite
 											loopCount: false,
+											// show cursor
+											showCursor: true,
+											// character for cursor
+											cursorChar: "&raquo;",  // &brvbar;
 				     });
 			  });
 </script>
