@@ -326,7 +326,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 70%;
+  	width: 65%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
@@ -341,17 +341,17 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: wordpress 2s ease;
 }
 .dotnet {
-  	width: 65%;
+  	width: 55%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .javascript {
-  	width: 60%;
+  	width: 30%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.matlab {
-  	width: 30%;
+.r {
+  	width: 25%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
