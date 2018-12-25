@@ -558,10 +558,10 @@
                   <div class="item-wrap">
 
                      <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/restaurant.png">
+                        <img alt="" src="images/portfolio/sudoku.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Opening A New Restaurant In Canberra</h5>
+          					      <h5>Sudoku Solver</h5>
                               <p>Artficial Intelligence</p>
           					   </div>
                         </div>
@@ -708,16 +708,16 @@
 
          <div id="modal-08" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/restaurant_canberra.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/modals/sudokusolver.PNG" alt="" />
 
 		      <div class="description-box">
-			      <h4>Opening a New Restaurant</h4>
-			      <p>A Data Science approach to predict the best place to open a new restaurant in the city of Canberra.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Data Science | Data Analysis | Python</span>
+			      <h4>Sudoku Solver</h4>
+			      <p>A Sudoku puzzle Solver made as a Constraint Satisfaction Problem in Minizinc modelling language.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Logic | Constraint Satisfaction | Minizinc IDE</span>
 		      </div>
 
             <div class="link-box">
-               <a href="blog/Opening_a_New_Restaurant_in_Canberra.html">Details</a>
+               <a href="https://github.com/htrivedi04/Sudoku-Solver">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
